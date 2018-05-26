@@ -1,5 +1,9 @@
 '''
-A program that reverses an integer.
+A program that solves the following problem:
+
+If there are n buckets and a pig drinking poison will die within m minutes, how many pigs(x) 
+ do you need to figure out the "poison" bucket within p minutes? There is exact one bucket 
+ with poison.
 
 Time complexity: O(N) where N is the number of buckets (this is a generalized upper limit,
   since the growth of (minutesToTest / minutesToDie + 1) ** pigs is exponential therefore
